@@ -10,7 +10,7 @@
 
 #define   dataPin   0   //DS Pin of 74HC595(Pin14)
 #define   latchPin  2   //ST_CP Pin of 74HC595(Pin12)
-#define   clockPin 3    //SH_CP Pin of 74HC595(Pin11)
+#define   clockPin  3    //SH_CP Pin of 74HC595(Pin11)
 // data of smile face
 unsigned char pic[]={0x1c,0x22,0x51,0x45,0x45,0x51,0x22,0x1c};
 unsigned char data[]={  // data of "0-F"
